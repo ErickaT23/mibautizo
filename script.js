@@ -178,7 +178,6 @@ document.getElementById('show-wishes').addEventListener('click', () => {
 });
 
   // --- Final: Foto y Frase ---
-  document.getElementById('final-photo').src = eventData.finalPhoto;
   document.getElementById('final-message').innerText = eventData.finalMessage;
 
   // --- Confirmaciones ---

@@ -33,15 +33,11 @@ export const eventData = {
       }
     },  
     gallery: [
+      "/images/H1.jpg",
+      "/images/H2.jpg",
+      "/images/H3.jpg",
       "/images/V1.jpg",
-      "/images/V2.jpg",
-      "/images/V3.jpg",
-      "/images/V4.jpg",
-      "/images/V5.jpg",
-      "/images/V6.jpg",
     ],
-
-    finalPhoto: "/images/10.png",
     finalMessage: "¡Gracias por ser parte de este día tan especial!",
     rsvp: {
       rsvpImage: "/images/rsvp.png",
