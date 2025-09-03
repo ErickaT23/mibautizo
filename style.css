@@ -7,15 +7,15 @@
     --amarillo: #fff7cc;
     --verde: #d5ead8;
     --lila: #e9d4ef;
-    --text-color: #6b5c53;
-    --accent-color: #c6a994;
+    --text-color: #9db3a1;
+    --accent-color: #90ba9b;
     
     /* Tipografías */
     --font-title: 'The Girl Next Door', cursive;
     --font-body: 'Give You Glory', cursive;
     
     /* Tamaños de letra */
-    --font-size-title: 3rem;
+    --font-size-title: 40px;
     --font-size-title-small: 2.5rem;
     --font-size-subtitle: 2rem;
     --font-size-text: 1.2rem;
@@ -37,6 +37,7 @@
     color: var(--text-color);
     overflow-x: hidden;
   }
+
   
   /* SECCIONES GENERALES */
   section {
@@ -129,6 +130,7 @@
   /* HERO (Foto inicial) */
   #hero {
     position: relative;
+    margin-top: 50px;
   }
   #hero img {
     width: 100%;
@@ -146,10 +148,11 @@
     height: auto;
   }
   .hero-text h1 {
-    margin-top: -250px;
+    margin-top: -245px;
+    font-size: 50px;
   }
   .hero-text h2{
-    margin-top: -30px;
+    margin-top: -45px;
   }
   /* SECCIÓN MÚSICA */
   #music-section {
@@ -296,13 +299,14 @@
   }
   /* INVITADO y PASES */
   #guest-name-section {
-    background-color: #f7eae1;
+    background-color: #cde1d2;
   }
   #passes-section{
-    background-color: #fbf5ef;
+    background-color: #9cb8a3;
   }
   #guest-name-section p, #passes-section p {
     font-size: var(--font-size-text);
+    color: white;
   }
   /* ITINERARIO */
   #itinerary-section {
@@ -668,7 +672,7 @@
   }
 
   #footer {
-    background-color: #635448;
+    background-color: #647769;
     color: white;
     text-align: center;
     padding: 20px 0;

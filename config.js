@@ -2,7 +2,7 @@ export const eventData = {
     couple: {
       names: "Mi Bautizo",
       date: "27 . 06 . 2026",
-      heroImage: "/images/angelito.svg"
+      heroImage: "/images/CRUZ.png"
     },
     song: {
       title: "Aleluya",
